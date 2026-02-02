@@ -1,54 +1,4 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 6,
-   "id": "d1b05094-47d1-48ad-a448-739814973a5b",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Welkom bij de Bench Score Calculator!\n"
-     ]
-    },
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "Voer je naam in:  Roan\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Welkom terug, Roan! Gebruik opgeslagen profiel.\n"
-     ]
-    },
-    {
-     "name": "stdin",
-     "output_type": "stream",
-     "text": [
-      "Voer je huidige gewicht in (kg):  100\n",
-      "Voer massa van de bench in (kg):  100\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n",
-      "Totale score voor Roan: 0.6518\n",
-      "\n",
-      "--- RANGLIJST ---\n",
-      "1. Senne: 0.9640\n",
-      "2. Roan: 0.6518\n"
-     ]
-    }
-   ],
-   "source": [
+
     "import json\n",
     "import math\n",
     "from scipy.integrate import quad\n",
@@ -162,36 +112,4 @@
     "# toon ranglijst\n",
     "print_ranglijst(profiles)\n",
     "\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "866ee54d-9949-4da3-b9f3-c18dd6ca9c19",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python [conda env:base] *",
-   "language": "python",
-   "name": "conda-base-py"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.5"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+  
