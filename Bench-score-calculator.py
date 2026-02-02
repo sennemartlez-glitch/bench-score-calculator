@@ -1,4 +1,3 @@
-
     "import json\n",
     "import math\n",
     "from scipy.integrate import quad\n",
